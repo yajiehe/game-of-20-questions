@@ -48,11 +48,7 @@ def test_game_with_different_guessing_agent_prompts(
         results = [future.result() for future in futures]
         success_rate = np.mean([result.success for result in results])
         mean_number_of_questions = np.mean(
-            [
-                result.number_of_questions
-                for result in results
-                if result.success is True
-            ]
+            [result.number_of_questions for result in results if result.success is True]
         )
         ci = stats.binom.interval(confidence, n=n_runs, p=success_rate)
         ci_lower, ci_upper = ci[0] / n_runs, ci[1] / n_runs
@@ -61,8 +57,9 @@ def test_game_with_different_guessing_agent_prompts(
     print(f"Success rate: {success_rate}, CI: {ci_lower} - {ci_upper}")
 
     with open(
-        f"test_results_guessing_agent_additional_instructions_version_{version}.json",
-        "a",
+        f"evals/test_results_guessing_agent_additional_instructions_version_{version}.json",
+        "w",
+        encoding="utf-8",
     ) as f:
         json.dump(
             {
@@ -123,7 +120,9 @@ def test_game_with_different_host_agent_prompts(
     print(f"Success rate: {success_rate}, CI: {ci_lower} - {ci_upper}")
 
     with open(
-        f"test_results_host_agent_additional_instructions_version_{version}.json", "a"
+        f"evals/test_results_host_agent_additional_instructions_version_{version}.json",
+        "w",
+        encoding="utf-8",
     ) as f:
         json.dump(
             {
