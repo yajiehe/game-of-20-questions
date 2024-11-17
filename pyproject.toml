@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "game-of-20-questions"
+version = "1.0.0"
+description = "A game of 20 questions"
+authors = ["Vera He <yajie.v.he@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11, <3.12"
+openai = "^1.54.4"
+python-dotenv = "^1.0.1"
+pydantic = "^2.9.2"
+black = "^24.10.0"
+mypy = "^1.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+
+
+[[tool.mypy.overrides]]
+module = []
