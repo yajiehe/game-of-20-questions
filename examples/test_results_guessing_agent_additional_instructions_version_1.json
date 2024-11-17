@@ -1,0 +1,1176 @@
+{
+    "guessing_agent_additional_instructions": "Your goal is to guess what the user is thinking of in fewest questions possible.\n        You must only ask questions that are binary yes/no questions to the best of your ability.\n        You must only play the game, and not ask any questions outside of the game.",
+    "n_runs": 10,
+    "confidence": 0.95,
+    "success_rate": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "mean_number_of_questions": 13.1,
+    "game_variables": {
+        "topic": "penguin",
+        "guessing_agent_temperature": 0.8,
+        "host_agent_temperature": 0.8,
+        "host_agent_additional_instructions": "The secret topic is {topic} and the user is trying to guess it.\n        You must answer the user's questions with yes or no truthfully.\n        You must not reveal the secret topic {topic} to the user.\n        You must only play the game, and not answer or ask any questions outside of the game.",
+        "guessing_agent_additional_instructions": "Your goal is to guess what the user is thinking of in fewest questions possible.\n        You must only ask questions that are binary yes/no questions to the best of your ability.\n        You must only play the game, and not ask any questions outside of the game."
+    },
+    "game_results": [
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 10,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Great! Let's start the game. You can ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a common household pet?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wild animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for being able to fly?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a large bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it primarily found in water environments?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, you got it! The secret topic is penguin. Well done! Would you like to play again?"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 13,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's begin the game! You can ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domesticated bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird of prey?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its colorful plumage?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it typically found near water?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of waterfowl, like a duck or a goose?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Can it swim?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly found in coastal areas?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a seagull?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 17,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's play 20 questions! Ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it something that is alive?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domestic animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wild animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Does it primarily live on land?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Does it primarily live in the water?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of fish?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of reptile?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of amphibian?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of invertebrate?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a large bird, larger than a duck?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of seabird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an albatross?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Does it have a long beak?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, it is! Great job guessing!"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 10,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's start the game! Go ahead and ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domestic animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wild animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its ability to fly?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a flightless bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it native to the Southern Hemisphere?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, you got it! The secret topic is indeed a penguin. Great job! Would you like to play another round?"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 9,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's start the game! You can ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a common household pet?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wild animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it capable of flight?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it larger than a human?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 17,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's start the game! You can ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domestic animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wild animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird of prey?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly found near water?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its ability to swim?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a duck?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a large bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it often found in freshwater environments?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly found in coastal or marine environments?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a seagull?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its distinctive coloration or plumage?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a puffin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, you guessed it! The secret topic is a penguin. Great job!"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 16,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's get started! You can ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a common pet?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its ability to fly long distances?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it native to a specific region or country?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it typically found in tropical or subtropical regions?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its distinctive appearance or coloring?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird of prey?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly found in forests or woodlands?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it associated with water or aquatic environments?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of waterfowl, such as a duck or a swan?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its unique vocalizations or calls?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a flightless bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, it is! Great job! You guessed it!"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 10,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Okay, let's start the game! Please ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly kept as a pet?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its ability to fly?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a flightless bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it native to the Southern Hemisphere?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an ostrich?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, you guessed it! The secret topic is penguin. Great job! Would you like to play again or do anything else?"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 14,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's play 20 Questions! You can start by asking your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domestic animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird of prey?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its colorful feathers?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it commonly found near water?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of waterfowl, like a duck or a goose?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wading bird, like a heron or a stork?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a seabird, like a gull or an albatross?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Does it primarily feed on fish?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of kingfisher?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, it is! Well done! You guessed it!"
+                }
+            ]
+        },
+        {
+            "id": "c5e7b6c5-85bc-4b44-9355-6dd6f038132e",
+            "success": true,
+            "number_of_questions": 15,
+            "chat_history": [
+                {
+                    "role": "Host Agent",
+                    "content": "Alright, let's play 20 questions! Go ahead and ask your first question."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a living thing?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it an animal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a mammal?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a domesticated bird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a bird of prey?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its colorful feathers?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Does it primarily live near water?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of duck?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a wading bird, like a heron or a stork?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its distinctive call or sound?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a seabird?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a type of gull?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "No."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it known for its diving ability?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes."
+                },
+                {
+                    "role": "Guessing Agent",
+                    "content": "Is it a penguin?"
+                },
+                {
+                    "role": "Host Agent",
+                    "content": "Yes, it is! Great job guessing!"
+                }
+            ]
+        }
+    ]
+}
