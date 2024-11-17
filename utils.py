@@ -1,5 +1,6 @@
+from typing import Any, Callable, List, Optional, Union
+
 from pydantic import BaseModel
-from typing import List, Callable, Union, Optional, Any
 
 
 class Agent(BaseModel):
@@ -31,7 +32,7 @@ class GameResult(BaseModel):
 
 
 class GameVariables(BaseModel):
-    topic: str
+    topic: str = "penguin"
     guessing_agent_temperature: float = 0.8
     host_agent_temperature: float = 0.8
     host_agent_additional_instructions: str = ""

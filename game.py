@@ -1,9 +1,10 @@
-from collections import defaultdict
-import uuid
-from agent_client import AgentClient
-from utils import bcolors, Agent, GameVariables, GameResult
-from typing import List, Callable, Union, Optional, Any
 import re
+import uuid
+from collections import defaultdict
+from typing import Any, Callable, List, Optional, Union
+
+from agent_client import AgentClient
+from utils import Agent, GameResult, GameVariables, bcolors
 
 
 class Game:

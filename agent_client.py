@@ -1,7 +1,9 @@
-from openai import OpenAI
-from typing import List
 import os
+from typing import List
+
 from dotenv import load_dotenv
+from openai import OpenAI
+
 from utils import Agent, Response
 
 load_dotenv()

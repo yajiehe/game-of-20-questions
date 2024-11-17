@@ -1,9 +1,10 @@
-from utils import bcolors
-from openai import OpenAI
-from typing import List, Optional
-from openai import AzureOpenAI
 import os
+from typing import List, Optional
+
 from dotenv import load_dotenv
+from openai import AzureOpenAI, OpenAI
+
+from utils import bcolors
 
 load_dotenv()
 
