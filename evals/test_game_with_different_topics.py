@@ -32,6 +32,13 @@ def test_game_with_different_topics(topic):
         futures = [executor.submit(game.run) for _ in range(n_runs)]
         results = [future.result() for future in futures]
         success_rate = np.mean([result.success for result in results])
+        mean_number_of_questions = np.mean(
+            [
+                result.number_of_questions
+                for result in results
+                if result.success is True
+            ]
+        )
         ci = stats.binom.interval(confidence, n=n_runs, p=success_rate)
         ci_lower, ci_upper = ci[0] / n_runs, ci[1] / n_runs
 
@@ -49,6 +56,7 @@ def test_game_with_different_topics(topic):
                 "success_rate": success_rate,
                 "ci_lower": ci_lower,
                 "ci_upper": ci_upper,
+                "mean_number_of_questions": mean_number_of_questions,
                 "game_variables": game_variables.model_dump(),
                 "game_results": json_results,
             },
