@@ -7,19 +7,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
-AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-AZURE_OPENAI_MODEL_DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_MODEL_DEPLOYMENT_NAME")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 
 class OpenAIClient:
     def __init__(self) -> None:
-        self.client = AzureOpenAI(
-            azure_endpoint=AZURE_OPENAI_ENDPOINT,
-            api_key=AZURE_OPENAI_KEY,
-            api_version="2023-05-15",
+        self.client = OpenAI(
+            api_key=OPENAI_API_KEY,
         )
-        self.model = AZURE_OPENAI_MODEL_DEPLOYMENT_NAME
+        self.model = "gpt-4o-2024-05-13"
 
     def generate(
         self,
